@@ -1,0 +1,14 @@
+function connectWithAll() {
+  const connectButtons = document.querySelectorAll('.artdeco-button--primary');
+  connectButtons.forEach((button, index) => {
+    setTimeout(() => {
+      button.click();
+    }, 2000 * index); // add a 2-second delay between each connection request
+  });
+}
+
+// Add a button to the page that triggers the connectWithAll function
+const button = document.createElement('button');
+button.textContent = 'Connect with All';
+button.onclick = connectWithAll;
+document.body.appendChild(button);

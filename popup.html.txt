@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>LinkedIn Connection Requester</title>
+    <style>
+      body {
+        width: 200px;
+        height: 100px;
+        font-family: Arial, sans-serif;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>LinkedIn Connection Requester</h1>
+    <button id="connect-with-all">Connect with All</button>
+    <script src="popup.js"></script>
+  </body>
+</html>
